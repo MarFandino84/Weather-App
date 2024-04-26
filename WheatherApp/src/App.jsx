@@ -3,7 +3,7 @@ import {FaSearch} from "react-icons/fa"
 import {GoLocation} from "react-icons/go"
 import InfoSection from './InfoSection';
 import ErrorMessage  from "./ErrorMessage"
-
+import React from 'react';
 
 const App = () => {
 
@@ -32,12 +32,12 @@ const handleClick = (e) => {
  
   return (
     <>
-    <main className='bg-[url(./skycloud.webp)] bg-cover flex justify-center items-start h-[100vh]'> 
+    <main className='bg-[url("https://res.cloudinary.com/dmkghcrs2/image/upload/v1714100054/pexels-photo-5138883_vzihop.webp")] bg-cover flex justify-center items-start h-[100vh]'> 
     <div className="mt-7 flex flex-col backdrop-blur-md rounded-lg border-white border-8  " >
       <header className=' max-h-40 flex-row flex justify-stretch items-center rounded backdrop-blur'> 
        <GoLocation className='fill-slate-100 border-none w-[8vw] h-[8vh]'/>
        <input 
-        className='placeholder-slate-50 focus:outline-none uppercase w-11/12 h-20 text-center text-[3vw] border-none bg-transparent backdrop-blur-sm'
+        className='placeholder-slate-50 text-slate-50 focus:outline-none uppercase w-11/12 h-20 text-center text-[3vw] border-none bg-transparent backdrop-blur-sm'
         id='user-input'
         placeholder='ENTER LOCATION'
         type='text'
