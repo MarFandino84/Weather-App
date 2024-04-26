@@ -32,7 +32,7 @@ const handleClick = (e) => {
  
   return (
     <>
-    <main className='bg-[url("./skycloud.webp")] bg-cover flex justify-center items-start h-[100vh]'> 
+    <main className='bg-[url(./skycloud.webp)] bg-cover flex justify-center items-start h-[100vh]'> 
     <div className="mt-7 flex flex-col backdrop-blur-md rounded-lg border-white border-8  " >
       <header className=' max-h-40 flex-row flex justify-stretch items-center rounded backdrop-blur'> 
        <GoLocation className='fill-slate-100 border-none w-[8vw] h-[8vh]'/>
