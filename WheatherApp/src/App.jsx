@@ -18,21 +18,15 @@ const[search, setSearch] = useState("")
     const data = await response.json();
     
     setSearch(data)
-    console.log(search);
      } catch (error) {
      console.log(error)
-  
-     }};
+    }};
 
 
   
 const handleClick = (e) => {
   e.preventDefault(); 
-  
-  if (city == "") {
-      alert("enter a city")
-    }
-    FetchData()
+  FetchData()
 }
 
  
